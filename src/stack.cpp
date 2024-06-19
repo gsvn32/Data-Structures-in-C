@@ -1,12 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-#define MAX 100
-
-typedef struct {
-    int arr[MAX];
-    int top;
-} Stack;
+#include "../myheaders/stack.h"
 
 void initialize(Stack *s) {
     s->top = -1;
